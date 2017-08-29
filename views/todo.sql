@@ -23,7 +23,7 @@ INSERT INTO todo (title, details, priority,created_at) VALUES ('Wash my Car', 'w
 
 SELECT title FROM todo WHERE completed = NULL;
 
-SELECT priority FROM todo ORDER BY DESC;
+SELECT priority FROM todo WHERE priority > 1 ;
 
 UPDATE todo SET completed_at = '2017-08-28 12:55:32' WHERE id = 1;
 
